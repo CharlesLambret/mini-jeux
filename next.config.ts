@@ -1,8 +1,10 @@
 import type { NextConfig } from "next";
 
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactStrictMode: true,
+  images: {
+    unoptimized: true, // Désactive l'optimisation des images pour GitHub Pages
+  },
 };
 
 export default nextConfig;
