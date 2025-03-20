@@ -100,7 +100,7 @@ export default function MemoryGame() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white">
       <h1 className="text-3xl font-bold mb-4">Jeu de mémoire - niveau {level + 1}</h1>
-      <p className="text-xl mb-4">Score: {score}</p>
+      <p className="text-xl mb-4">Score : {score}</p>
       {matched.length === cards.length && (
         <button
           onClick={handleNextLevel}
